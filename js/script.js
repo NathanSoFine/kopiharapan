@@ -50,12 +50,10 @@ const itemDetailButtons = document.querySelectorAll('.item-detail-button');
 
 itemDetailButtons.forEach((btn) => {
   btn.onclick = (e) => {
-    console.log('Button clicked'); // Tambahkan log untuk debug
     itemDetailModal.style.display = 'flex';
     e.preventDefault();
   };
 });
-
 
 // klik tombol close modal
 document.querySelector('.modal .close-icon').onclick = (e) => {
