@@ -26,17 +26,53 @@
             <a href="#home">Home</a>
             <a href="#about">About Us</a>
             <a href="#menu">Menu</a>
+            <a href="#products">Product</a>
             <a href="#contact">Contact</a>
         </div>
         <div class="navbar-extra">
-            <a href="#" id="search"><i data-feather="search"></i></a>
-            <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+            <a href="#" id="search-button"><i data-feather="search"></i></a>
+            <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
             <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
 
         </div>
-     </nav>
-     <!-- Navbar end -->
 
+        <!-- Search Form start -->
+         <div class="search-form">
+            <input type="search" id="search-box" placeholder="What You looking for?...">
+            <label for="search-box"><i data-feather="search"></i></label>
+         </div>
+        <!-- Search Form End -->
+        
+     <!-- Navbar end -->
+        <!-- Shopping cart start -->
+     <div class="shopping-card">
+        <div class="cart-item">
+          <img src="img/products/product1bag.jpg" alt="Product 1">
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 40K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/product2bag.jpg" alt="Product 1">
+          <div class="item-detail">
+            <h3>Product 2</h3>
+            <div class="item-price">IDR 100K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/product3bag.jpg" alt="Product 1">
+          <div class="item-detail">
+            <h3>Product 3</h3>
+            <div class="item-price">IDR 50K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart end -->
+    </nav>
      <!-- Hero Section Start -->
      <section class="hero" id="home">
         <main class="content">
@@ -100,56 +136,187 @@
     </section>    
     <!-- Menu Section End -->
 
-    <!-- Contact Session Start -->
-        <section id="contact" class="contact">
-            <h2><span>Our</span> Contact</h2>
-        <p>Hubungi Kami Apabila Ada Masalah di bawah ini!</p>
+    <!-- Products Section start -->
+    <section class="products">
+        <h2>Out <span>Best and Reccomended</span> Products.</h2>
+        <p>Penjualan Terbaik Dari Kopi Harapan Kami Yang Di Minati Banyak Konsumen, Dan Di Seduh Pertama Kalo Oleh 
+            Founder Kami Jonathan Nathari Hackim Batubara
+        </p>
 
         <div class="row">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6787512764517!2d101.50775847453325!3d0.47924426375647494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5afd215af5e77%3A0xce89f2f4c0db148f!2sJl.%20Sepakat%2C%20Kec.%20Tenayan%20Raya%2C%20Kota%20Pekanbaru%2C%20Riau%2028289!5e0!3m2!1sen!2sid!4v1727530178033!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
-       
-            <form action="">
-                <div class="input-group">
-                    <i data-feather="user"></i>
-                    <input type="text" placeholder="Nama">
+            <div class="product-cart">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-bag"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
                 </div>
-                <div class="input-group">
-                    <i data-feather="mail"></i>
-                    <input type="text" placeholder="Email">
+                <div class="product-image">
+                    <img src="img/products/product1bag.jpg" alt="Product 1">
                 </div>
-                <div class="input-group">
-                    <i data-feather="phone"></i>
-                    <input type="text" placeholder="No Hp">
+                <div class="product-content">
+                    <h3>-- Espresso Bean Package 150G --</h3>
+                    <div class="product-stars">
+                        <i data-feather="star" class="star101"></i>
+                        <i data-feather="star" class="star101"></i>
+                        <i data-feather="star" class="star101"></i>
+                        <i data-feather="star" class="star101"></i>
+                        <i data-feather="star" class="star101"></i>
+                    </div>
+                    <div class="product-price">
+                        --- IDR 45K -- <span>IDR 50K</span>
+                    </div>
                 </div>
-                <button type="submit" class="btn">Kirim pesan</button>
-            </form>
+            </div>
         </div>
-        </section>
-     <!-- Contact Session End -->
-
-     <!-- footer start -->
-        <footer>
-            <div class="socials">
-                <a href="#"><i
-                 data-feather="instagram"></i></a>
-                 <a href="#"><i
-                 data-feather="twitter"></i></a>
-                 <a href="#"><i
-                 data-feather="facebook"></i></a>
+        <div class="row">
+            <div class="product-cart">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-bag"></i></a>
+                    <a href="#" class="item"><i data-feather="eye"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="img/products/product2bag.jpg" alt="Product 1">
+                </div>
+                <div class="product-content">
+                    <h3>-- Cappucino Bean Package 150G --</h3>
+                    <div class="product-stars">
+                        <i data-feather="star" class="star101"></i>
+                        <i data-feather="star" class="star101"></i>
+                        <i data-feather="star" class="star101"></i>
+                        <i data-feather="star" class="star101"></i>
+                        <i data-feather="star"></i>
+                    </div>
+                    <div class="product-price">
+                        --- IDR 100K -- <span>IDR 120K</span>
+                    </div>
+                </div>
             </div>
-
-            <div class="links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#menu">Menu</a>
-                <a href="#contact">Contact</a>
+        </div>
+        <div class="row">
+            <div class="product-cart">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-bag"></i></a>
+                    <a href="#"><i data-feather="eye"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="img/products/product3bag.jpg" alt="Product 1">
+                </div>
+                <div class="product-content">
+                    <h3>-- Robusta Bean Package 150G --</h3>
+                    <div class="product-stars">
+                        <i data-feather="star" class="star101"></i>
+                        <i data-feather="star" class="star101"></i>
+                        <i data-feather="star" class="star101"></i>
+                        <i data-feather="star" class="star101"></i>
+                        <i data-feather="star" class="star101"></i>
+                    </div>
+                    <div class="product-price">
+                        --- IDR 50K -- <span>IDR 60K</span>
+                    </div>
+                </div>
             </div>
-
-            <div class="credit">
-                <p>Created By <a href="">Jonathan and Cofee.</a> | &copy; 2024. </p>
+        </div>
+        <div class="row">
+            <div class="product-cart">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-bag"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="img/products/product4bag.jpg" alt="Product 1">
+                </div>
+                <div class="product-content">
+                    <h3>-- Espresso Bean Package 150G --</h3>
+                    <div class="product-stars">
+                        <i data-feather="star" class="star101"></i>
+                        <i data-feather="star" class="star101"></i>
+                        <i data-feather="star" class="star101"></i>
+                        <i data-feather="star" class="star101"></i>
+                        <i data-feather="star" class="star101"></i>
+                    </div>
+                    <div class="product-price">
+                        --- IDR 70K -- <span>IDR 80K</span>
+                    </div>
+                </div>
             </div>
-        </footer>
-     <!-- footer end -->
+        </div>
+    </section>
+
+    <!-- Products Section end -->
+      <!-- Contact Section start -->
+  <section id="contact" class="contact">
+    <h2><span>Kontak</span> Kami</h2>
+    <p>Kontak Kami sekarang jika ingin bantuan!
+    </p>
+
+    <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127669.04951185602!2d101.3587735828873!3d0.5139623334018465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5ab80690ee7b1%3A0x94dde92c3823dbe4!2sPekanbaru%2C%20Pekanbaru%20City%2C%20Riau!5e0!3m2!1sen!2sid!4v1727605488524!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+      <form action="">
+        <div class="input-group">
+          <i data-feather="user"></i>
+          <input type="text" placeholder="nama">
+        </div>
+        <div class="input-group">
+          <i data-feather="mail"></i>
+          <input type="text" placeholder="email">
+        </div>
+        <div class="input-group">
+          <i data-feather="phone"></i>
+          <input type="text" placeholder="no hp">
+        </div>
+        <button type="submit" class="btn">kirim pesan</button>
+      </form>
+
+    </div>
+  </section>
+  <!-- Contact Section end -->
+
+  <!-- Footer start -->
+  <footer>
+    <div class="socials">
+      <a href="#"><i data-feather="instagram"></i></a>
+      <a href="#"><i data-feather="twitter"></i></a>
+      <a href="#"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="credit">
+      <p>Created by <a href="">Jonathan And Coffe</a>. | &copy; 2024.</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- Modal Box Item Detail start -->
+  <div class="modal" id="item-detail-modal">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <img src="img/products/product1bag.jpg" alt="Product 1">
+        <div class="product-content">
+          <h3>Product 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, tenetur cupiditate facilis obcaecati
+            ullam maiores minima quos perspiciatis similique itaque, esse rerum eius repellendus voluptatibus!</p>
+          <div class="product-stars">
+            <i data-feather="star" class="star101"></i>
+            <i data-feather="star" class="star101"></i>
+            <i data-feather="star" class="star101"></i>
+            <i data-feather="star" class="star101"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          <a href="#"><i data-feather="shopping-cart"></i> <span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <!-- Feather -->
     <script>
         feather.replace();
