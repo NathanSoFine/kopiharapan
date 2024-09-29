@@ -1,3 +1,0 @@
-ftp.kopiharapan.store - >HOST
-u471813896.kopiharapan - > USERNAME
-@PVu8uWgeHU2SaD - > PASSWORD
